@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #FFFFFF;
+  }
+
+  .container{
+    width: 80vw;
+    margin-top: 10vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upperPart{
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+    height: 64px; 
+    align-self: stretch;
+  }
+
+  h2{
+    width: 100vw;
+    height: 40px;
+    display: block;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151B32;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 20px;
+  }
+
+  .searchBar{
+      width: 40%;
+      height: 24px;
+      
+  }
+
+  input{
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151B32;
+    opacity: 0.7;
+  }
+
+  .jobs{
+      height: 24px;
+      justify-content: space-between
+  }
+
+  .job{
+      padding: auto;
+      margin: 10px;
+  }
+
+  #new{
+      background-color: #849FFF;
+      border: solid 10px #849FFF;
+      border-radius: 8px;
+  }
+
+  .users{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+
+  .user{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 24px;
+    gap: 16px;
+    width: 25vw;
+    height: 30vh;
+    background: #FBFCFF;
+    border-radius: 16px;
+    border: 1px solid #BFC8E6;
+    margin-bottom: 5px;
+  }
+
+  img{
+    float: left;
+    display: inline;
+    width: 30%;
+    }
+
+  .personalInfo{
+      display: flex;
+      flex-direction: column;
+      float: right;
+      width: 60%;
+      margin-top: 20px;
+  }
+
+  .name{
+     font-weight: bold;
+     font-family: 'Merriweather';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 23px;
+    color: #151B32;
+
+  }
+
+  .address{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #151B32;
+  }
+
+  .tags{
+      display: flex;
+      flex-direction: row;
+      float: right;
+  }
+  .tag{
+    box-sizing: border-box;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px;
+    gap: 10px;
+    color: #516FD4;
+    width: auto;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    
+  }
